@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>It's Oksana</title>
+	
+    
+    <meta http-equiv="cleartype" content="on"/>
+
+	<link rel="shortcut icon" href="/favicon.ico"/>
+
+    <link rel="stylesheet" href="css/main.css" media="all"/>
+    <link rel="stylesheet" href="css/main.responsive.css" media="all"/>
+
+
+
+
+
+
+	<!-- Responsive and mobile friendly stuff -->
+    <!--
+	<meta name="HandheldFriendly" content="True"/>
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- Stylesheets 
+	<link rel="stylesheet" href="css/html5reset.css" media="all" />
+	<link rel="stylesheet" href="css/responsivegridsystem.css" media="all"/>
+	<link rel="stylesheet" href="css/col.css" media="all"/>
+	<link rel="stylesheet" href="css/2cols.css" media="all"/>
+	<link rel="stylesheet" href="css/3cols.css" media="all"/>
+	<link rel="stylesheet" href="css/4cols.css" media="all"/>
+	<link rel="stylesheet" href="css/5cols.css" media="all"/>
+	<link rel="stylesheet" href="css/6cols.css" media="all"/>
+	<link rel="stylesheet" href="css/7cols.css" media="all"/>
+	<link rel="stylesheet" href="css/8cols.css" media="all"/>
+	<link rel="stylesheet" href="css/9cols.css" media="all"/>
+	<link rel="stylesheet" href="css/10cols.css" media="all"/>
+	
+	
+
+	<!-- Responsive Stylesheets 
+	<link rel="stylesheet" media="only screen and (max-width: 1024px) and (min-width: 769px)" href="css/1024.css"/>
+	<link rel="stylesheet" media="only screen and (max-width: 768px) and (min-width: 481px)" href="css/768.css"/>
+	<link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/480.css"/>
+
+    <script type="text/javascript" src="scripts/modernizr-2.5.3-min.js"></script>
+
+    -->
+
+    <link rel="stylesheet" href="css/responsive.gs.16col.css" media="all"/>
+    <script type="text/javascript" src="scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="scripts/respond.min.js"></script>
+    <script type="text/javascript" src="scripts/responsivegridsystem.js"></script>
+       <script type="text/javascript" src="scripts/scripts.js" ></script>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'/>
+   
+    <asp:ContentPlaceHolder id="head"  runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ScriptManager EnablePageMethods="True|False" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="container">
+       <div class="main">
+        <asp:ContentPlaceHolder id="header" runat="server">
+        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder id="content" runat="server">
+        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder id="footer" runat="server">
+        </asp:ContentPlaceHolder>
+       </div>
+    </div>
+    </form>
+
+    <script type="text/javascript" src="scripts/respond.min.js"></script>
+    <asp:ContentPlaceHolder id="footscript" runat="server">
+        </asp:ContentPlaceHolder>
+</body>
+</html>

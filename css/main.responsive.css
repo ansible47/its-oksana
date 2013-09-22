@@ -1,0 +1,23 @@
+﻿@media only screen 
+and (max-width : 720px) {
+/* Styles */ 
+    .main
+    {
+        margin-left:0px;    
+    }
+    .gallery-img
+    {
+        width:320px;
+        
+    }
+    .nav-img
+    {
+       width:60%;
+        
+    }
+    headsplash1
+    {
+        background-color:Aqua;
+    }
+    
+}
