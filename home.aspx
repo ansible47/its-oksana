@@ -12,7 +12,7 @@
         </div>
         <div class="popup">
             <div class="row splash1">
-                <div id="email text" class="text"><a href="mailto:oksana@itsoksana.com">oksana@itsoksana.com</a></div>
+                <div id="email text link" class="text"><a href="mailto:oksana@itsoksana.com">oksana@itsoksana.com</a></div>
             </div>
             <div class="row splash2">
                  <div id="phone" class="text"><a>773.387.6968</a></div>
@@ -25,23 +25,23 @@
         <div class="row" style="">
            
            <div class="col span_5 nav1">
-               <a href="draperies.aspx">
-                <img class="splash1 navimg" src="images/menuimg1.jpg" alt="" style=""/>
-                <img class="splash2 navtxt" src="images/drapariestext.jpg" alt="" style=""/>
+               <a href="draperies.aspx" class="bounce">
+                     <img class="splash1 navimg" src="images/menuimg1.jpg" alt="" style=""/>
+                     <img class="splash2 navtext" src="images/drapariestext.jpg" alt="" style=""/>
                </a>
               <!--  <div class="rotate"  style="">draperies</div>-->
             </div>
             <div class="col span_6 nav2">
-               <a href="lasercutting.aspx">
+               <a href="lasercutting.aspx" class="bounce">
                 <img class="splash3 navimg" src="images/menuimg2.jpg" alt=""  style=""/>
-                <img class="splash4 navtxt" src="images/menutext2.jpg" alt="" style=""/>
+                <img class="splash4 navtext" src="images/menutext2.jpg" alt="" style=""/>
                </a>
               <!--<div class="navtext rotate" style="">lazer cuttings</div>-->
             </div>
             <div class="col span_5 nav1">
-                <a href="specialevents.aspx">
+                <a href="specialevents.aspx" class="bounce">
                  <img class="splash5 navimg" src="images/menuimg3.jpg" style="" alt=""/>
-                 <img class="splash6 navtxt" src="images/menutext3.jpg" alt="" style=""/>
+                 <img class="splash6 navtext" src="images/menutext3.jpg" alt="" style=""/>
                  </a>
                <!--<div class="navtext rotate" style="">special events</div>-->
                </div>
@@ -59,14 +59,14 @@
                     $(".splash4").css("opacity", "0");
                     $(".splash5").css("opacity", "0");
                     $(".splash6").css("opacity", "0");
-                    $(".headsplash1").delay(500).animate({ opacity: 1 }, 500);
-                    $(".headsplash2").delay(500).animate({ opacity: 1 }, 500);
-                    $(".splash1").delay(800).animate({ opacity: 1 }, 500);
-                    $(".splash2").delay(900).animate({ opacity: 1 }, 500);
+                    $(".headsplash1").delay(200).animate({ opacity: 1 }, 500);
+                    $(".headsplash2").delay(400).animate({ opacity: 1 }, 500);
+                    $(".splash1").delay(600).animate({ opacity: 1 }, 500);
+                    $(".splash2").delay(800).animate({ opacity: 1 }, 500);
                     $(".splash3").delay(1000).animate({ opacity: 1 }, 500);
-                    $(".splash4").delay(1100).animate({ opacity: 1 }, 500);
-                    $(".splash5").delay(1200).animate({ opacity: 1 }, 500);
-                    $(".splash6").delay(1300).animate({ opacity: 1 }, 500);
+                    $(".splash4").delay(1200).animate({ opacity: 1 }, 500);
+                    $(".splash5").delay(1400).animate({ opacity: 1 }, 500);
+                    $(".splash6").delay(1600).animate({ opacity: 1 }, 500);
 
                 });
     </script>

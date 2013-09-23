@@ -9,7 +9,20 @@
 </asp:Content>
 
 <asp:Content ID="header" ContentPlaceHolderID="header" Runat="Server">
-        <div class="row">
+        <div class="row splash1">
+          
+            <div class="popup">
+                <div id="email title" class="text"><a href="home.aspx">laser cutting</a></div>
+                 <div id="homepopup"><a href="home.aspx">(home)</a></div>
+                 </div>
+        </div>
+</asp:Content>
+
+<asp:Content ID="content" ContentPlaceHolderID="content" Runat="Server">
+    <div class="row span_16">
+        <div id="gallery"> </div>
+    </div>
+            <div class="row">
             <a href="home.aspx">
                 <img class="headerimg" src="images/menu.jpg" alt="head icon" />
             </a>
@@ -22,15 +35,16 @@
           </a>
         <br />
         </div>
-        <div class="row splash1">
-            <div id="email text" class="text">laser cuttings</div>
+        <div class="popup">
+            <div class="row splash1">
+                <div id="email" class="footer"><a href="mailto:oksana@itsoksana.com">oksana@itsoksana.com</a></div>
+            </div>
+            <div class="row splash2">
+                 <div id="phone" class="footer"><a>773.387.6968</a></div>
+                 <div id="contact"><a href="contact.aspx">(contact)</a></div>
+            </div>
         </div>
-</asp:Content>
-
-<asp:Content ID="content" ContentPlaceHolderID="content" Runat="Server">
-    <div class="row span_16">
-        <div id="gallery"> </div>
-    </div>
+        </div>
 </asp:Content>
     
 <asp:Content ID="Content2" ContentPlaceHolderID="footscript" Runat="Server" >

@@ -6,13 +6,46 @@
     margin-top:3%;
     margin-right:auto;
     margin-left:15%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+       -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
     
 }
+
+img.homeimage:hover
+{
+  border-radius:10%;
+}   
+
 
 a
 {
    text-decoration:none;
    color:	#014063;
+    
+}
+
+a:hover
+{
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+}
+
+link:hover
+{
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+   opacity:.8;
     
 }
 
@@ -83,17 +116,18 @@ img.headerimg
 }
 
 .navtext
-{
-   float:right;
-   font-size:200%;
-   width:350px;
-   margin-top:50px;
-   position:relative;
-   bottom:0px;
-   margin-top:0;
-   border: 1px solid #111111;
-   
+{   
+   margin-bottom:0;
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
 }
+
+.navtext:hover{
+    margin-bottom:10%;
+}
+
 
 .rotate {
     /* Safari, Chrome */
@@ -132,12 +166,13 @@ img.headerimg
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
-  -webkit-transition: all 0.1s ease-out;
-  -moz-transition: all 0.1s ease-out;
-  -o-transition: all 0.1s ease-out;
-  transition: all 0.1s ease-out;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   margin-left:10px;
   margin-bottom:10px;
+  vertical-align:middle;
 }
 
 .alpha
@@ -146,15 +181,15 @@ img.headerimg
 }
 /* line 191, ../sass/screen.sass */
 .gallery-img:hover {
-  opacity:.8;
+  border-radius:20%;
 }
 
 #contact
 {
-   -webkit-transition: all 0.5s ease-out;
-   -moz-transition: all 0.5s ease-out;
-   -o-transition: all 0.5s ease-out;
-   transition: all 0.5s ease-out;
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
    opacity:0;
    font-size:32px;
    position:relative;
@@ -162,17 +197,55 @@ img.headerimg
    margin-left:300px;
 }
 
+#homepopup
+{
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+   opacity:0;
+   font-size:32px;
+   position:relative;
+   bottom:40px;
+   margin-left:0px;
+}
+
+
 .popup:hover #contact
 {
     opacity:1;   
     margin-left:350px;
 }
+.popup:hover #homepopup
+{
+    opacity:1;   
+    margin-left:220px;
+}
+
 
 .navimg
 {   
-   height:400px;
-   width:80%
+   width:80%;
+   height:420px;
+   border-bottom:15px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
 }
+
+.navimg:hover{
+    border-radius:50px;   
+}
+
+ 
+
 
 .navtxt
 {
@@ -188,4 +261,24 @@ img.headerimg
 .nav2
 {
     min-width:320px;
+}
+
+.footer
+{
+    font-size:24px;    
+}
+
+.bounce:hover > .navtext
+{
+    margin-bottom:10%;   
+}
+
+.demotext
+{
+    position:fixed;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.1em;
+    right:0;
+    bottom:0;
+    font-size:175%;
 }

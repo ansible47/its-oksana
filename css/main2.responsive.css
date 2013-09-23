@@ -1,0 +1,33 @@
+﻿@media only screen and (max-width : 320px)
+{
+/* Styles */
+    body
+    {
+     margin-left:0px;   
+    }
+    
+
+    
+    .gallery-img
+    {
+        width:280px;
+        margin-left:5px;
+    }
+    
+    .homepopup
+    {
+        opacity:1;   
+        font-size:24px;
+    }
+    
+    #contact
+    {
+        margin-left:15px;
+    }
+    #contact:hover
+    {
+        
+        
+    }
+    
+}

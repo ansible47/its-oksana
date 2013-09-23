@@ -1,4 +1,116 @@
-﻿@media only screen 
+﻿@media only screen and (max-width : 320px)
+{
+/* Styles */
+
+    
+    .gallery-img
+    {
+        width:75%;
+        margin-left:5px;
+    }
+    
+    .homepopup
+    {
+        opacity:1;   
+        font-size:24px;
+    }
+    
+    #contact
+    {
+        margin-left:15px;
+    }
+    #contact:hover
+    {
+        
+        
+    }
+    
+}
+
+
+@media all and (max-width : 480px) 
+{
+/* Styles */
+    #navtext:hover
+    {
+        padding-left:5%;
+        line-height:200%;   
+        
+    }
+    
+    .gallery-img
+    {
+        width:48%;
+        margin-left:5px;
+    }
+    
+}
+
+@media only screen 
+and (max-width : 641px) 
+{
+/* Styles */
+    .headerimg
+    {   
+        width:50%;
+        
+    }
+
+    .headplash1
+    {
+        width:75%;
+        
+    }
+    
+    .headsplash2
+    {
+        width:50%;
+        
+    }
+     
+    .main
+    {
+        margin-left:0px;    
+    }
+    .gallery-img
+    {
+        width:48%;
+        margin-left:15%;
+    }
+
+
+    .text
+    {
+      font-size:18px;   
+    }
+
+    #contact
+    {
+           opacity:1;
+           font-size:24px;
+           position:relative;
+           bottom:18px;
+           margin-left:300px;
+    }
+    
+    #contact:hover
+    {
+        
+    }
+    
+    #navtext:hover
+    {
+        padding-left:5%;
+        line-height:200%;   
+        
+    }
+    
+    
+}
+
+
+
+@media only screen 
 and (max-width : 720px) {
 /* Styles */ 
     .main
@@ -10,14 +122,73 @@ and (max-width : 720px) {
         width:320px;
         
     }
-    .nav-img
+    .navimg
     {
        width:60%;
         
     }
-    headsplash1
+    .gallery-img
     {
-        background-color:Aqua;
+        margin-left:20px;
+        width:30%;
+        margin-bottom:25px;
+    }
+    .alpha
+    {
+        margin-left:20px;
     }
     
+}
+
+
+@media only screen 
+and (max-width : 801px) {
+/* Styles */ 
+    .main
+    {
+        margin-left:0px;    
+    }
+    .gallery-img
+    {
+        width:320px;
+        
+    }
+    .navimg
+    {
+       width:60%;
+        
+    }
+    .gallery-img
+    {
+        margin-left:20px;
+        width:30%;
+        margin-bottom:25px;
+    }
+    .alpha
+    {
+        margin-left:20px;
+    }
+    
+}
+
+
+@media only screen 
+and (max-width : 1280px) 
+{
+/* Styles */
+    .navimg
+    {
+        width:250px;
+    
+    }
+    .gallery-img
+    {
+        margin-left:20px;
+        width:22%;
+        margin-bottom:25px;
+    }
+    .alpha
+    {
+        margin-left:20px;
+    }
 }
