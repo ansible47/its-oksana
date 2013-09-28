@@ -7,15 +7,20 @@
 
 <asp:Content ID="content" ContentPlaceHolderID="content" Runat="Server">
  
+        <a href="home.aspx">
+                 
+            
         <div class="row col span_16">
-           <a href="home.aspx">
-            <img class="homeimage" src="images/homepagephotograph.jpg" alt="home image"/>
-            </a>
+           <img class="homeimage" src="images/homepagephotograph.jpg" alt="home image"/>
         </div>
-    <a href="home.aspx">
-        <img class="defsplash1 row" src="images/hometext1.jpg" alt="it's"/>
-        <img class="defsplash2 row" src="images/hometext2.jpg" alt="oksana"/>
-    </a>
+        </a>
+        <div class="row col span_16">
+                <img class="defsplash1" src="images/hometext1.jpg" alt="it's"/>
+                <img class="defsplash2" src="images/hometext2.jpg" alt="oksana"/>
+        </div>
+</asp:Content>
+<asp:Content ID="footer" ContentPlaceHolderID="footer" Runat="Server">
+       <div id="foot">all images & content &copy; 2013 It's Oksana</div>
 </asp:Content>
     
 <asp:Content ID="Content2" ContentPlaceHolderID="footscript" Runat="Server" >

@@ -65,27 +65,40 @@
            $(".splash4").delay(1200).animate({ opacity: 1 }, 500);
            $(".splash5").delay(1400).animate({ opacity: 1 }, 500);
            $(".splash6").delay(1600).animate({ opacity: 1 }, 500);
-
-           var offset = window.innerHeight * .90 - $("#headcontent").height();
+           var isChrome = window.chrome;
+           if (isChrome) {
+               var offset = window.innerHeight * .75 - $("#headcontent").height();
+               // is chrome 
+           } else {
+               var offset = window.innerHeight * .90 - $("#headcontent").height();
+               // not chrome 
+           }
+           
 
            if (window.innerWidth > 768 & window.innerHeight > 480) {
-              // alert("If triggered! with offset " + offset + " " + window.innerHeight);
+               //alert("Setting height to: " + offset);
                $(".navimg1, .navimg2").css("height", offset + "px");
 
            }
            else {
-              // alert("else triggered!");
                $(".navimg1").css("height", 380 + "px");
                $(".navimg2").css("height", 380 + "px");
            }
 
-          //dev $("#windowSize").html(window.innerHeight + " - " + $("#headcontent").height() + " width: " + window.innerWidth);
+           //dev $("#windowSize").html(window.innerHeight + " - " + $("#headcontent").height() + " width: " + window.innerWidth);
 
 
            $(window).resize(function () {
 
-               var offset = window.innerHeight * .90 - $("#headcontent").height();
-              //dev $("#windowSize").html(window.innerHeight + " - " + $("#headcontent").height() + " width: " + window.innerWidth);
+               if (isChrome) {
+                   var offset = window.innerHeight * .90 - $("#headcontent").height();
+                   // is chrome 
+               } else {
+                   var offset = window.innerHeight * .90 - $("#headcontent").height();
+                   // not chrome 
+               }
+               
+               //dev $("#windowSize").html(window.innerHeight + " - " + $("#headcontent").height() + " width: " + window.innerWidth);
 
                if (window.innerWidth < 769) {
                    $(".navimg1, .navimg2").css("height", 380 + "px");
@@ -99,4 +112,8 @@
        });
 
     </script>
+</asp:Content>
+
+<asp:Content ID="footer" ContentPlaceHolderID="footer" Runat="Server">
+       <div id="foot">all images & content &copy; 2013 It's Oksana</div>
 </asp:Content>

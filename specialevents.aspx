@@ -39,7 +39,11 @@
             <div class="row splash2">
                  <div id="contact"><a href="contact.aspx">contact</a></div>
             </div>
-     </div>
+</asp:Content>
+
+
+<asp:Content ID="footer" ContentPlaceHolderID="footer" Runat="Server">
+       <div id="foot">all images & content &copy; 2013 It's Oksana</div>
 </asp:Content>
     
 <asp:Content ID="Content2" ContentPlaceHolderID="footscript" Runat="Server" >

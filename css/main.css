@@ -268,6 +268,14 @@ img.headerimg
     margin-bottom:5%;   
 }
 
+.defsplash1:hover > .homeimage, .defsplash2:hover > img.homeimage
+{
+      -moz-box-shadow: 5px 5px 5px #888;
+    -webkit-box-shadow: 5px 5px 5px #888;
+    box-shadow: 5px 5px 5px #888;
+       
+}
+
 .demotext
 {
     position:fixed;
@@ -291,4 +299,15 @@ img.headerimg
 #bodycontent
 {
     margin-left:10%;   
+}
+
+#foot
+{
+ position:relative;
+ bottom:0px;
+ font-size:16px;
+ width:100%;
+  color:	#014063;
+ text-align:center;  
+ height:15px; 
 }

@@ -56,3 +56,9 @@
                 </div>
             </div>
             </asp:Content>
+
+
+
+            <asp:Content ID="footer" ContentPlaceHolderID="footer" Runat="Server">
+       <div id="foot">all images & content &copy; 2013 It's Oksana</div>
+</asp:Content>
