@@ -12,7 +12,7 @@
         <div class="row splash1">
           
             <div class="popup">
-                <div id="email title" class="text"><a href="home.aspx">draperies</a></div>
+                <div id="title" class="text"><a href="home.aspx">draperies</a></div>
                  <div id="homepopup"><a href="home.aspx">(home)</a></div>
                  </div>
         </div>
@@ -36,13 +36,8 @@
              <img class="headsplash2" src="images/hometext2.jpg" alt="oksana"/>
           </a>
         </div>
-                <div class="popup">
-            <div class="row splash1">
-                <div id="email" class="footer"><a href="mailto:oksana@itsoksana.com">oksana@itsoksana.com</a></div>
-            </div>
             <div class="row splash2">
-                 <div id="phone" class="footer"><a>773.387.6968</a></div>
-                 <div id="contact"><a href="contact.aspx">(contact)</a></div>
+                 <div id="contact"><a href="contact.aspx">contact</a></div>
             </div>
         </div>
 </asp:Content>
