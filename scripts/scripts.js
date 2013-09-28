@@ -3,10 +3,10 @@
 
 }
 
-function showImagesLightbox(input, dest) {
+function showImagesLightbox(input, dest, type) {
     var pics = input.split(";");
 
-    pics = shuffle(removeFinalElement(pics));
+    pics = removeFinalElement(pics);
 
     dest = "#" + dest.toString();
 
@@ -21,13 +21,13 @@ function showImagesLightbox(input, dest) {
 
               if ((x) % picsPerRow == 0) {
                   //alpha (for no border)
-                  output += "<a href='images/draperies/" + picInfo[0].toString() + "' data-lightbox='draperies' Title='"+ picInfo[1].toString() + "'>";
-                  output += "<img src='images/draperies/" + picInfo[0].toString() + "' class='gallery-img alpha galsplash" + x + "' alt='img_" + (x + 1).toString() + "' />";
+                  output += "<a href='images/" + type + "/" + picInfo[0].toString() + "' data-lightbox='" + type + "' Title='" + picInfo[1].toString() + "'>";
+                  output += "<img src='images/" + type + "/" + picInfo[0].toString() + "' class='gallery-img alpha galsplash" + x + "' alt='img_" + (x + 1).toString() + "' />";
                   output += "</a>";
               }
               else {
-                  output += "<a href='images/draperies/" + picInfo[0].toString() + "' data-lightbox='draperies' Title='" + picInfo[1].toString() + "'>";
-                  output += "<img src='images/draperies/" + picInfo[0].toString() + "' class='gallery-img galsplash" + x + "' alt='img_" + (x + 1).toString() + "' />";
+                  output += "<a href='images/" + type + "/" + picInfo[0].toString() + "' data-lightbox='" + type + "' Title='" + picInfo[1].toString() + "'>";
+                  output += "<img src='images/" + type + "/" + picInfo[0].toString() + "' class='gallery-img galsplash" + x + "' alt='img_" + (x + 1).toString() + "' />";
                   output += "</a>";
               }
     }

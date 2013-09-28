@@ -32,6 +32,10 @@
                     <div class="row splash1">
                         <div id="email" class="text"><a href="mailto:oksana@itsoksana.com">oksana@itsoksana.com</a></div>
                     </div>
+                    <br />
+                    <div class="row splash1">
+                        <div id="email" class="text"><a href="http://www.itsoksana.blogspot.com">itsoksana.blogspot.com</a></div>
+                    </div>
                     <div class="row splash2">
                     <br />
                          <div id="phone" class="text"><a>773.387.6968</a></div>

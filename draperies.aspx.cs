@@ -54,7 +54,7 @@ public partial class draperies : System.Web.UI.Page
                
             }
 
-            ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "showImagesLightbox('" + output + "', 'gallery')", true);
+            ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "showImagesLightbox('" + output + "', 'gallery', 'draperies')", true);
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Layout.master" Title="Content Page"%>
+﻿<%@ Page Language="C#" MasterPageFile="~/Layout.master" Title="It's Oksana Home"%>
 
 <asp:Content ID="header" ContentPlaceHolderID="header" Runat="Server">
     <div id="headcontent">
