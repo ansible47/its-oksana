@@ -1,6 +1,6 @@
 ﻿img.homeimage
 {
-    width:70%;
+    width:65%;
     height:auto;
     clear:both;
     margin-top:20px;
@@ -20,9 +20,9 @@
 
 img.homeimage:hover
 {
-    -moz-box-shadow: -5px -5px 5px #888;
-    -webkit-box-shadow: -5px -5px 5px #888;
-    box-shadow: -5px -5px 5px #888;
+    -moz-box-shadow: 5px 5px 5px #888;
+    -webkit-box-shadow: 5px 5px 5px #888;
+    box-shadow: 5px 5px 5px #888;
 }   
 
 

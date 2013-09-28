@@ -78,7 +78,7 @@
         </asp:ContentPlaceHolder>
         <asp:ContentPlaceHolder id="footer" runat="server">
         </asp:ContentPlaceHolder>
-        <div class="demotext">Demo 9/23/2013</div>
+        <div class="demotext">Demo 9/28/2013</div>
        </div>
     </div>
     </form>
